@@ -2,6 +2,7 @@ import React from 'react';
 
 import style from '../styles/home.module.css';
 import connection from "../utils/static/connection";
+import {Link} from "react-router-dom";
 
 const Home = () => {
     return (
@@ -14,9 +15,9 @@ const Home = () => {
                     return (
                         <div key={item.id} className={style.connection}>
                             <div>
-                                <a href={item.path} target='_blank'>
+                                <Link to={item.path}>
                                     {item.name}
-                                </a>
+                                </Link>
                             </div>
                             <div>
                     <span>

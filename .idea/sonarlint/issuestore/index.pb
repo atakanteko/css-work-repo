@@ -13,16 +13,3 @@ J
 src/styles/home.module.css,e/9/e9136e2690393fe5d20b2ff220933f22518bd504
 ;
 src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
-A
-public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
-<
-netlify.toml,b/7/b7603b2d52a305d1420312b2b0a2086a7fee9bf7
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
-A
-src/pages/Home.js,f/8/f88e17193d91c101c7e0bd70b2fc4123066b1147
-N
-src/utils/static/connection.js,5/9/59e804f7e4f6704652c23c18751dd5772205c47f
-:
-
-src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714

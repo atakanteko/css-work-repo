@@ -16,6 +16,12 @@ const connection = [
         name: 'Beauty and Beast Movie Card',
         path: '/movie-card',
         date: '2022 June 22'
+    },
+    {
+        id: 4,
+        name: 'Apple Navbar',
+        path: '/navigation',
+        date: '2022 June 23'
     }
 ]
 

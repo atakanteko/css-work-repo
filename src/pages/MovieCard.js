@@ -22,12 +22,11 @@ const MovieCard = () => {
                         <span>Directed by Bill Condon</span>
                     </h2>
                     <div className={style.rating}>
-                        <div><img src={FilledStart} alt="Filled Star" /></div>
+                        <div><img src={FilledStart} alt="Filled Star"/></div>
                         <div><img src={FilledStart} alt="Filled Star"/></div>
                         <div><img src={FilledStart} alt="Filled Star"/></div>
                         <div><img src={FilledStart} alt="Filled Star"/></div>
                         <div><img src={EmptyStart} alt="Empty Star"/></div>
-                        <span>4/5</span>
                     </div>
                     <div className={style.tags}>
                         <div className={style.fantasy}>Fantasy</div>
@@ -35,10 +34,10 @@ const MovieCard = () => {
                     </div>
                     <div className={style.info}>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+                            A selfish Prince is cursed to become a monster for the rest of his life, unless he learns to fall in love with a beautiful young woman he keeps prisoner.
                         </p>
                     </div>
-                    <div className={style.cast}>
+                    <div className={style.star}>
                         <h4>Cast</h4>
                         <ul>
                             <li><img src={Emma} alt="Emma Watson"/></li>

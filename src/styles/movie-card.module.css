@@ -4,15 +4,23 @@
     font-family: 'PT Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background: #aba7a7;
-    /*height: 100vh;*/
+    background: #FFF;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .card {
-    width: 300px;
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.card:hover .details {
+    bottom: 0;
 }
 
 .card .poster {
@@ -20,17 +28,135 @@
     overflow: hidden;
 }
 
+.card .poster:before {
+    content: '';
+    position: absolute;
+    bottom: -225px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #000 50%, transparent);
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.card:hover .poster:before {
+    bottom: 0;
+}
+
 .card .poster img {
     width: 100%;
+    transition: 0.7s;
+}
+
+.card:hover .poster img {
+    transform: translateY(-50px);
+    filter: blur(5px);
 }
 
 .rating {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 5px 0 0;
+}
+
+.rating div {
+    margin-right: 5px;
 }
 
 .rating img {
     width: 24px;
     height: 24px;
 }
+.rating span {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.details {
+    position: absolute;
+    bottom: -225px;
+    z-index: 2;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    transition: 0.5s;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+.details h2 {
+    color: #FFF;
+    text-shadow: 1px 1px #110e0e;
+    margin: 0;
+    padding: 40px 0 0;
+    font-size: 32px;
+}
+
+.details h2 span {
+    color: #FF9800;
+    font-size: 22px;
+}
+
+.tags {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tags div {
+    padding: 4px 8px;
+    margin-right: 3px;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+.tags div.fantasy {
+    background: rgba(114, 6, 247, 0.93);
+}
+
+.tags div.romance {
+    background: rgba(114, 6, 97, 0.99);
+}
+
+.info {
+    margin-top: 10px;
+    color: #FFF;
+}
+
+.info p{
+   font-size: 18px;
+}
+
+.star {
+    margin-top: 10px;
+    z-index: 5;
+    height: max-content;
+}
+.star h4 {
+    color: #FF9800;
+    font-size: 22px;
+}
+
+.star ul {
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+}
+
+.star ul li {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 6px;
+    border: 2px solid #FFF;
+}
+
+.star ul li img {
+    width: 100%;
+}
+

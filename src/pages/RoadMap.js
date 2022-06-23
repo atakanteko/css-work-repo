@@ -90,7 +90,7 @@ const states = [
 ]
 
 const Roadmap = () => {
-    const [whichDateToBeBlue, setWhichDateToBeBlue] = useState(1)
+    const [whichDateToBeBlue, setWhichDateToBeBlue] = useState(2)
     const [year, setYear] = useState(2022)
     const [currentState, setCurrentState] = useState([])
 

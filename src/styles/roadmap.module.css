@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    background: rgba(17, 17, 21, 0.99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 90px 0 0;
+
+}
+
+.roadmap {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 90px;
+    padding-right: 90px;
+
+    width: 100%;
+
+}
+
+.dates {
+    align-self: start;
+    font-size: 24px;
+    color: #696A6B;
+    line-height:45px;
+    font-weight: bold;
+    margin-bottom: 325px;
+    margin-right: 35px;
+}
+
+.dates .blueDate {
+    color: #499AE7;
+}
+
+.dates ul {
+    list-style: none;
+}
+
+.states {
+    position: relative;
+    width: 100%;
+}
+
+.states ul {
+    list-style: none;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border-top: 2px solid;
+    border-image:linear-gradient(90deg, #111115 0%, #30303B 14.06%, #30303B 85.94%, #111115 100%) 30;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.states ul li .item {
+    position: relative;
+}
+
+.states ul li .item:before {
+    content: '';
+    position: absolute;
+    left: 42%;
+    top: -65px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #565758;
+    box-shadow: inset 0 0 0 2px rgb(177, 178, 180);
+}
+
+.states ul li .item.filledBlue:before {
+    content: '';
+    position: absolute;
+    left: 42%;
+    top: -65px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #136FD8;
+    box-shadow: inset 0 0 0 2px rgb(177, 178, 180);
+}
+
+.states ul li {
+    width: 340px;
+    margin-right: 40px;
+}
+
+.states ul li:last-child {
+    margin-right: 0;
+}
+
+.states ul li .iconAndText {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.states ul li .iconAndText .icon {
+    width: 5%;
+    margin-right: 10px;
+}
+
+.states ul li .iconAndText .icon.check {
+    color: #38B53C;
+}
+
+.states ul li .iconAndText .icon.hourGlass {
+    color: #FBCB3E;
+}
+
+.states ul li .iconAndText .text {
+    width: 95%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 38px;
+}
+
+.states .stateHolder {
+    position: relative;
+}
+
+.states .stateHolder .stateName {
+    position: absolute;
+    left: 42.2%;
+    top: -120px;
+    font-weight: bold;
+    line-height: 36px;
+    font-size: 20px;
+    color: #565758;
+}
+
+.states .stateHolder .stateName.currentState {
+    left: 25%;
+    color: #FFF;
+}
+

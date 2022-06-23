@@ -6,6 +6,7 @@ import Timeline from "./pages/Timeline";
 import TimelineVersion from "./pages/TimelineVersion";
 import MovieCard from "./pages/MovieCard";
 import NavigationBarLikeApple from "./pages/NavigationBarLikeApple";
+import Roadmap from "./pages/RoadMap";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/timeline-version-2" element={<TimelineVersion />} />
             <Route path="/movie-card" element={<MovieCard />} />
             <Route path="/navigation" element={<NavigationBarLikeApple />} />
+            <Route path="/roadmap" element={<Roadmap />} />
         </Routes>
     </div>
   );

@@ -7,6 +7,7 @@ import TimelineVersion from "./pages/TimelineVersion";
 import MovieCard from "./pages/MovieCard";
 import NavigationBarLikeApple from "./pages/NavigationBarLikeApple";
 import Roadmap from "./pages/RoadMap";
+import ImageHover from "./pages/ImageHover";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/movie-card" element={<MovieCard />} />
             <Route path="/navigation" element={<NavigationBarLikeApple />} />
             <Route path="/roadmap" element={<Roadmap />} />
+            <Route path="/image-hover" element={<ImageHover />} />
         </Routes>
     </div>
   );

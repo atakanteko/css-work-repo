@@ -28,6 +28,12 @@ const connection = [
         name: 'Roadmap With States',
         path: '/roadmap',
         date: '2022 June 23'
+    },
+    {
+        id: 5,
+        name: 'Image Hover',
+        path: '/image-hover',
+        date: '2022 June 27'
     }
 ]
 

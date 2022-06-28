@@ -8,6 +8,7 @@ import MovieCard from "./pages/MovieCard";
 import NavigationBarLikeApple from "./pages/NavigationBarLikeApple";
 import Roadmap from "./pages/RoadMap";
 import ImageHover from "./pages/ImageHover";
+import MagicNav from "./pages/MagicNav";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/navigation" element={<NavigationBarLikeApple />} />
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/image-hover" element={<ImageHover />} />
+            <Route path="/magic-navigation" element={<MagicNav />} />
         </Routes>
     </div>
   );

@@ -22,7 +22,7 @@ const MagicNav = () => {
                             return (
                                 <li key={item.id}
                                     onClick={()=>setActiveLink(item.id)}
-                                    className={`${style.list} ${item.id===active ? style.active : ''}`}>
+                                    className={`${item.id===active ? style.active : ''}`}>
                                     <a href="#">
                                         <span className={style.icon}>
                                             <FontAwesomeIcon icon={item.icon} />

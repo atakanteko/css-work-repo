@@ -15,7 +15,7 @@ const MagicNav = () => {
                     {
                         magicNav.map(item => {
                             return (
-                                <li key={item.id} className={style.list}>
+                                <li key={item.id} className={`${style.list} ${style.active}`}>
                                     <a href="#">
                                         <span className={style.icon}>
                                             <FontAwesomeIcon icon={item.icon} />
@@ -28,6 +28,7 @@ const MagicNav = () => {
                             )
                         })
                     }
+                    <div className={style.indicator}></div>
                 </ul>
             </div>
         </div>

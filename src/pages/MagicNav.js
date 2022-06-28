@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import style from '../styles/magic-navigation.module.css'
 
@@ -8,14 +8,21 @@ import {faHouse, faUser, faComment, faCamera, faGear} from "@fortawesome/free-so
 import magicNav from "../utils/static/MagicNav/magic-nav";
 
 const MagicNav = () => {
+    const [active, setActive] = useState(0)
+
+    const setActiveLink = (id) => {
+        setActive(id)
+    }
     return (
         <div className={style.container}>
             <div className={style.navigation}>
                 <ul>
                     {
-                        magicNav.map(item => {
+                        magicNav.map((item) => {
                             return (
-                                <li key={item.id} className={`${style.list} ${style.active}`}>
+                                <li key={item.id}
+                                    onClick={()=>setActiveLink(item.id)}
+                                    className={`${style.list} ${item.id===active ? style.active : ''}`}>
                                     <a href="#">
                                         <span className={style.icon}>
                                             <FontAwesomeIcon icon={item.icon} />

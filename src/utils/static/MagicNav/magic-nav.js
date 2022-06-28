@@ -2,27 +2,27 @@ import {faHouse, faUser, faComment, faCamera, faGear} from "@fortawesome/free-so
 
 const magicNav = [
     {
-        id:1,
+        id:0,
         text:'Home',
         icon:faHouse
     },
     {
-        id:2,
+        id:1,
         text:'Profile',
         icon:faUser
     },
     {
-        id:3,
+        id:2,
         text:'Message',
         icon:faComment
     },
     {
-        id:4,
+        id:3,
         text:'Photos',
         icon:faCamera
     },
     {
-        id:5,
+        id:4,
         text:'Settings',
         icon:faGear
     }

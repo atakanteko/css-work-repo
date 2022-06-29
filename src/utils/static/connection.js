@@ -24,19 +24,19 @@ const connection = [
         date: '2022 June 23'
     },
     {
-        id: 4,
+        id: 5,
         name: 'Roadmap With States',
         path: '/roadmap',
         date: '2022 June 23'
     },
     {
-        id: 5,
+        id: 6,
         name: 'Image Hover',
         path: '/image-hover',
         date: '2022 June 27'
     },
     {
-        id: 6,
+        id: 7,
         name: 'Magic Navigation',
         path: '/magic-navigation',
         date: '2022 June 29'

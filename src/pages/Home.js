@@ -5,6 +5,9 @@ import connection from "../utils/static/connection";
 import {Link} from "react-router-dom";
 
 const Home = () => {
+    const trySweetAlert = () => {
+        console.log('123')
+    }
     return (
         <div className={style.container}>
             <div>
@@ -28,6 +31,9 @@ const Home = () => {
                     )
                 })
             }
+            <div onClick={trySweetAlert}>
+                <h1>Button</h1>
+            </div>
         </div>
     );
 };

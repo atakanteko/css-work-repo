@@ -36,7 +36,7 @@ const connection = [
         date: '2022 June 27'
     },
     {
-        id: 5,
+        id: 6,
         name: 'Magic Navigation',
         path: '/magic-navigation',
         date: '2022 June 29'

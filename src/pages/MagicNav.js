@@ -3,7 +3,6 @@ import React, {useState} from 'react';
 import style from '../styles/magic-navigation.module.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHouse, faUser, faComment, faCamera, faGear} from "@fortawesome/free-solid-svg-icons";
 
 import magicNav from "../utils/static/MagicNav/magic-nav";
 

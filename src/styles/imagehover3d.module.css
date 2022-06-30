@@ -1,0 +1,40 @@
+.ctxBody {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: #e91e63;
+    position: relative;
+    width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.container .box {
+    position: relative;
+    width: 375px;
+    height: 375px;
+    background: #000000;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    overflow: hidden;
+}
+
+.container .box .imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .box .imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}

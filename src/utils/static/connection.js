@@ -40,6 +40,12 @@ const connection = [
         name: 'Magic Navigation',
         path: '/magic-navigation',
         date: '2022 June 29'
+    },
+    {
+        id: 8,
+        name: '3D Image Hover',
+        path: '/3d-image-hover',
+        date: '2022 June 30'
     }
 ]
 

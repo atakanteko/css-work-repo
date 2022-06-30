@@ -46,6 +46,12 @@ const connection = [
         name: '3D Image Hover',
         path: '/3d-image-hover',
         date: '2022 June 30'
+    },
+    {
+        id: 9,
+        name: 'Content Box',
+        path: '/content-box',
+        date: '2022 June 30'
     }
 ]
 

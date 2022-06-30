@@ -5,7 +5,6 @@
     align-items: center;
 }
 .container {
-    background: #e91e63;
     position: relative;
     width: max-content;
     display: flex;
@@ -24,6 +23,20 @@
     overflow: hidden;
 }
 
+.container:hover .box {
+    transform: rotateY(25deg);
+}
+
+.container .box:hover ~ .box {
+    transform: rotateY(-25deg);
+}
+
+.container .box:hover {
+    transform: rotateY(0deg) scale(1.25);
+    z-index: 1;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+
 .container .box .imgBox {
     position: absolute;
     top: 0;
@@ -32,9 +45,82 @@
     height: 100%;
 }
 
+.container .box .imgBox:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: linear-gradient(180deg, #f00, #000);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    mix-blend-mode: multiply;
+}
+
+.container .box:hover .imgBox:before {
+    opacity: 1;
+}
+
 .container .box .imgBox img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top;
 }
+
+.container .box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.container .box .content h2 {
+    color: #FFFFFF;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 20px;
+    transform: translateY(200px);
+}
+
+.container .box:hover .content h2 {
+    transform: translateY(0px);
+}
+
+.container .box .content p {
+    color: #FFFFFF;
+    transition: 0.5s;
+    font-size: 14px;
+    transform: translateY(200px);
+}
+
+.container .box:hover .content p {
+    transform: translateY(0px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

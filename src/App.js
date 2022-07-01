@@ -11,6 +11,7 @@ import ImageHover from "./pages/ImageHover";
 import MagicNav from "./pages/MagicNav";
 import ImageHover3D from "./pages/ImageHover3D";
 import ContentBox from "./pages/ContentBox";
+import CocaCola from "./pages/CocaCola";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/magic-navigation" element={<MagicNav />} />
             <Route path="/3d-image-hover" element={<ImageHover3D />} />
             <Route path="/content-box" element={<ContentBox />} />
+            <Route path="/coca-cola" element={<CocaCola />} />
         </Routes>
     </div>
   );

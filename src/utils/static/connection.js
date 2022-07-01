@@ -52,6 +52,12 @@ const connection = [
         name: 'Content Box',
         path: '/content-box',
         date: '2022 June 30'
+    },
+    {
+        id: 10,
+        name: 'CocaCola Landing Page',
+        path: '/coca-cola',
+        date: '2022 July 1'
     }
 ]
 

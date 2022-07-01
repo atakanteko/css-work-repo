@@ -8,3 +8,28 @@ body {
   margin: 0px;
   box-sizing: border-box;
 }
+
+.swiper {
+  width: 225px !important;
+  height: max-content;
+  margin-top: 3px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-container {
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 180px;
+  height: 500px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: end;
+}
+/*.swiper-slide img {*/
+/*  display: block;*/
+/*  width: 100%;*/
+/*}*/

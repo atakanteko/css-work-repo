@@ -13,6 +13,7 @@ import ImageHover3D from "./pages/ImageHover3D";
 import ContentBox from "./pages/ContentBox";
 import CocaCola from "./pages/CocaCola";
 import MovieLanding from "./pages/MovieLanding";
+import FitnessLandind from "./pages/FitnessLandind";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/content-box" element={<ContentBox />} />
             <Route path="/coca-cola" element={<CocaCola />} />
             <Route path="/movie-landing-page" element={<MovieLanding />} />
+            <Route path="/fitness" element={<FitnessLandind />} />
         </Routes>
     </div>
   );

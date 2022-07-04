@@ -64,6 +64,12 @@ const connection = [
         name: 'Movie Site Landing Page',
         path: '/movie-landing-page',
         date: '2022 July 2'
+    },
+    {
+        id: 12,
+        name: 'Fitness Gym Website',
+        path: '/fitness',
+        date: '2022 July 4'
     }
 ]
 

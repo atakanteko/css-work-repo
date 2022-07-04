@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+.container {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1000;
+}
+
+header .logo {
+    position: relative;
+    font-size: 2em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+header .logo span {
+    color: #37D72F;
+}
+
+header .toggle {
+    max-width: 60px;
+    cursor: pointer;
+}
+
+header .toggle img {
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    background: #111111;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    background: #37D72F;
+    transform-origin: top;
+    transform: skewX(-25deg);
+    z-index: 1;
+}
+
+.banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.20;
+    pointer-events: none;
+}
+
+.banner .textBox {
+    position: relative;
+    max-width: 600px;
+    z-index: 2;
+}
+
+.banner .textBox h2 {
+    color: #FFF;
+    font-size: 3em;
+}
+
+.banner .textBox a {
+    position: relative;
+    display: inline-block;
+    background: #FFF;
+    color: #111;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.banner .textBox p {
+    color: #FFF;
+    font-size: 1.1em;
+    margin: 5px 0 25px;
+}
+
+.banner .imgBox {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    z-index: 2;
+}
+
+.banner .imgBox img {
+    position: absolute;
+    height: 90%;
+    bottom: 0;
+}
+
+.sci {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 100px;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.sci li img {
+    transform: scale(0.8);
+    filter: invert(100%);
+}

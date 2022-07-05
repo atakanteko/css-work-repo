@@ -14,6 +14,7 @@ import ContentBox from "./pages/ContentBox";
 import CocaCola from "./pages/CocaCola";
 import MovieLanding from "./pages/MovieLanding";
 import FitnessLandind from "./pages/FitnessLandind";
+import Starbucks from "./pages/Starbucks";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Route path="/coca-cola" element={<CocaCola />} />
             <Route path="/movie-landing-page" element={<MovieLanding />} />
             <Route path="/fitness" element={<FitnessLandind />} />
+            <Route path="/starbucks" element={<Starbucks />} />
         </Routes>
     </div>
   );

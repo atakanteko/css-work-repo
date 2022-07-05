@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+.container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.container .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+header {
+    position: absolute;
+    margin: 0;
+    padding: 40px 100px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    background: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 0.5px;
+}
+
+.container .content {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 300px 100px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container .content .textBox {
+    max-width: 800px;
+}
+
+.container .content .textBox h2 {
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.container .content .textBox h2 span {
+    color: #017143;
+    font-size: 72px;
+}
+
+.container .content .textBox p {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.container .content .textBox a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #017143;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.container .content .miniImages  {
+    z-index: 9999;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.container .content .miniImages ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content .miniImages ul li {
+    margin-left: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container .content .miniImages ul li:hover {
+    transform: translateY(-30px);
+}
+
+.imgAndIcon {
+    display: flex;
+    width: max-content;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: calc(20%);
+    right: 30px;
+    z-index:2;
+
+}
+
+.imgAndIcon .largeImage {
+    width: 400px;
+}
+
+.imgAndIcon .sci {
+    margin-left: 100px;
+}
+
+.imgAndIcon .sci ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgAndIcon .sci ul li {
+    margin-bottom: 20px;
+}
+
+.imgAndIcon .sci ul li img{
+    filter: invert(1);
+    transform: scale(0.9);
+}

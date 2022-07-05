@@ -70,6 +70,12 @@ const connection = [
         name: 'Fitness Gym Website',
         path: '/fitness',
         date: '2022 July 4'
+    },
+    {
+        id: 13,
+        name: 'Starbucks Landing Page',
+        path: '/starbucks',
+        date: '2022 July 5'
     }
 ]
 

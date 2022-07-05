@@ -69,12 +69,8 @@ A
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 U
 %src/utils/static/Cocacola/cocacola.js,d/0/d02b1fc5190e96dc38cb0fb54c8e4f0fe440f9b4
-N
-src/styles/cocacola.module.css,4/2/42be189f765de976538e96d30625caa87cd743fb
 Q
 !src/components/cola/SwiperCola.js,7/e/7e80fa66ed74feb8031c07ca9ebd9d13d3a1cdf8
-E
-src/pages/CocaCola.js,7/e/7eceb559bcd1b3b39486d3d1133afa648e9ed7be
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ;
@@ -89,3 +85,7 @@ X
 (src/assets/images/movie-landing/imdb.svg,d/2/d2805d8cbb8c55cfd389171d9156a8333e16ced3
 A
 src/pages/Home.js,f/8/f88e17193d91c101c7e0bd70b2fc4123066b1147
+S
+#src/styles/movie-landing.module.css,0/9/09c99a61687e89cab4ede6ee27cadacffdbc4115
+I
+src/pages/MovieLanding.js,7/8/788b23e3144e4eef830d17ff1760c891af228fe8

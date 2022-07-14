@@ -49,8 +49,6 @@ V
 &src/utils/static/MagicNav/magic-nav.js,3/d/3d3d2687869279708c4fb623b72c17359c8add2e
 G
 src/pages/ContentBox.js,4/b/4bd4488566427a97e04671847bc5b491911583c9
-<
-src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
 J
 src/styles/home.module.css,e/9/e9136e2690393fe5d20b2ff220933f22518bd504
 V
@@ -73,8 +71,6 @@ Q
 !src/components/cola/SwiperCola.js,7/e/7e80fa66ed74feb8031c07ca9ebd9d13d3a1cdf8
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-;
-src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
 E
 src/pages/MagicNav.js,7/2/72f4352155fe2414e63ebbba3eaaee4e30501003
 V
@@ -89,3 +85,19 @@ S
 #src/styles/movie-landing.module.css,0/9/09c99a61687e89cab4ede6ee27cadacffdbc4115
 I
 src/pages/MovieLanding.js,7/8/788b23e3144e4eef830d17ff1760c891af228fe8
+M
+src/styles/fitness.module.css,c/4/c41e0fc648a486285ebdea033072284be6ecebb0
+K
+src/pages/FitnessLandind.js,3/5/35d1076f7f027f9e451af85a3a9d57e7b021acbf
+E
+src/pages/CocaCola.js,7/e/7eceb559bcd1b3b39486d3d1133afa648e9ed7be
+N
+src/styles/cocacola.module.css,4/2/42be189f765de976538e96d30625caa87cd743fb
+F
+src/pages/Starbucks.js,2/0/20e94df331969b20a4bb5f9acc2b6b12302322d2
+<
+src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
+;
+src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
+O
+src/styles/starbucks.module.css,c/a/ca2a8ff0f274984b398f5c071a8480e3c6e0758a

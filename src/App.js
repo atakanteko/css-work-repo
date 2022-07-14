@@ -15,6 +15,7 @@ import CocaCola from "./pages/CocaCola";
 import MovieLanding from "./pages/MovieLanding";
 import FitnessLandind from "./pages/FitnessLandind";
 import Starbucks from "./pages/Starbucks";
+import CardHover from "./pages/CardHover";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <Route path="/movie-landing-page" element={<MovieLanding />} />
             <Route path="/fitness" element={<FitnessLandind />} />
             <Route path="/starbucks" element={<Starbucks />} />
+            <Route path="/card-hover" element={<CardHover />} />
         </Routes>
     </div>
   );

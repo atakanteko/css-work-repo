@@ -76,6 +76,12 @@ const connection = [
         name: 'Starbucks Landing Page',
         path: '/starbucks',
         date: '2022 July 5'
+    },
+    {
+        id: 14,
+        name: 'Card Hover',
+        path: '/card-hover',
+        date: '2022 July 14'
     }
 ]
 
